@@ -1,0 +1,355 @@
+/*
+
+=-=-=-==-=KOLORY=-==-=-=-
+
+piasek: #eae6db
+ciemny piasek: #dcd8ce
+ciemnoszary: #212629
+ciemny pomarańcz: #f9762d
+pomarańcz: #fbb928
+niebieski top: #27536d
+
+linki: #5da2c7
+
+rozmiary fontów:
+12 - 1em
+13 - 1.08em
+14 - 1.16em
+20 - 1.66em
+35 - 2.92em       ,bo 35/12 = 2.92
+*/
+
+
+/**
+ * @license
+ * MyFonts Webfont Build ID 3057057, 2015-07-11T08:36:29-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Museo-300 by exljbris
+ * URL: http://www.myfonts.com/fonts/exljbris/museo/300/
+ * Copyright: Copyright (c) 2008 by Jos Buivenga/exljbris. All rights reserved.
+ * Licensed pageviews: 10,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3057057
+ * 
+ * © 2015 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2ea5a1");
+
+  
+@font-face {font-family: 'Museo-300';src: url('../assets/webfonts/2EA5A1_0_0.eot');src: url('../assets/webfonts/2EA5A1_0_0.eot?#iefix') format('embedded-opentype'),url('../assets/webfonts/2EA5A1_0_0.woff2') format('woff2'),url('../assets/webfonts/2EA5A1_0_0.woff') format('woff'),url('../assets/webfonts/2EA5A1_0_0.ttf') format('truetype');}
+ 
+
+
+/* =-=-=-RESET-=-=-= */
+ul, ol, dl {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	font-size: 1em;
+}
+a img {
+	border: none;
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,
+menu,nav,section {
+	display:block;
+}
+
+/* =-=-=-REUSABLE-=-=-= */
+
+.hide {
+	text-indent: -999em;
+	height: 0px;
+}
+
+
+
+/* =-=-=LINKI-=-=-=- */
+
+a:link {
+	color: #5da2c7;
+}
+a:visited {
+	color: #5da2c7;
+}
+a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+
+
+/* =-=- LAYOUT =-=-= */
+html {
+	background: url(../img/bg-top-repeat.gif) repeat-x;
+	background-color: #eae6db;
+	overflow: scroll;
+}
+
+body {
+	font-size: 0.75em; /* 12px */
+	font-family: "Myriad Pro", Arial, Helvetica, sans-serif;
+	padding: 0px;
+	overflow: hidden;
+	width: 1133px;
+	margin: 0px auto;
+	
+}
+
+#left-column {
+	float:left;
+	width: 917px;
+}
+#right-column {
+	float:right;
+	width: 198px;
+}
+header {
+	overflow: hidden;
+	margin-top: 54px;
+	height: 117px;
+}
+header h1 {
+	background: url(../img/logo.png) no-repeat;
+	float: left;
+	height: 150px;
+	width: 390px;
+	text-indent: -999em;
+}
+header aside {
+	background: url(../img/twitter.png) top right no-repeat;
+	float: right;
+	width: 403px;
+	height: 47px;
+	background-color: rgba(51,51,51,.7);
+	color:#fff;
+	margin-top: 35px;
+	padding: 5px 20px;
+	font-weight: bold;
+}
+header aside h2 {
+	display: inline;
+}
+
+
+/* NAV */
+nav {
+	border-top: #fbb928 4px solid;
+}
+
+nav ul li a{
+	display: block;
+	width: 131px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.3em;
+	color: #fff !important;
+	font-family: "Museo-300";
+	text-shadow: #000 1px 1px;
+}
+nav ul {
+	width: 917px;
+}
+nav ul li {
+	float:left;
+}
+.home {
+	background-color: #2f5971;
+}
+.art {
+	background-color: #34617b;
+}
+.snipp {
+	background-color: #396b87;
+}
+.inspi {
+	background-color: #417b9b;
+}
+.blog {
+	background-color: #4b8cb0;
+}
+.forum {
+	background-color: #559ec7;
+}
+.kontakt {
+	background-color: #5eafdd;
+}
+
+/* =-=-=- TOP =-=-=-=- */
+
+#szeryf {
+	width: 933px;
+	height: 233px;
+	background: url(../img/top-bg.png) top no-repeat;
+	float:left;
+}
+
+#szeryf section {
+	font-family: "Museo-300";
+	color: #fff;
+	height: 90px;
+	width: 420px;
+	margin: 40px 0 0 40px;
+}
+#szeryf section h2 {
+	font-size: 2.9em;
+}
+#szeryf section p {
+	font-size: 1.18em;
+}
+
+/* =-=-=- ARTYKUŁY =-=-=-= */
+
+#artykuly section {
+	float:left;
+	width: 274px;
+	height: 252px;
+	background: #dcd8ce;
+	margin-bottom: 40px;
+	padding: 9px;
+}
+#art2 {
+	margin: 0 20px;
+}
+#artykuly h2, #artykuly h3 {
+	font-size: 1.18em;
+}
+#artykuly p {
+	margin-top: 15px;
+}
+
+/* =-=-=-=- Aktualnosc i witaj -=-=-=- */
+
+#akt {
+	float: left;
+	width: 272px;
+	height: 217px;
+	background: #fbb928;
+	padding: 10px;
+}
+#akt h2 {
+	font-size: 2.9em;
+	color: #27536d;
+	font-family: "Museo-300";
+}
+#akt ul li {
+	font-size: 1.04em;
+	padding: 5px 0 5px 10px;
+	line-height: 1.1em;
+	border-bottom: 1px #666 dotted;
+}
+#witaj {
+	float: right;
+	border-bottom: 4px solid #f9762d;
+	background: #212629;
+	width: 584px;
+	height: 213px;
+	padding: 10px;
+	color: #fff;
+}
+#witaj h2 {
+	font-family: "Museo-300";
+	font-size: 2.9em;
+
+}
+#witaj p {
+	font-size: 1.16em;
+	margin-top: 15px;
+}
+
+/* =-=-= SOCIAL =-=-=- */
+
+#social {
+	height: 154px;
+}
+#social ul li img {
+	float: left;
+	margin: 20px 0;
+}
+
+/* =-=-=- FOOTER =-=-=- */
+
+footer ul li,footer span {
+	float:left;
+}
+footer ul li a {
+	text-decoration: none;
+	display: block;
+	padding: 0 10px;
+	border-right: 1px solid rgba(0,153,204,1);
+}
+footer ul li:last-child a {
+	border-right: none;
+}
+
+footer {
+	background: url(../img/logo-footer.jpg) 0 right no-repeat;
+	background-color: #dcd8ce;
+	height: 27px;
+	overflow: hidden;
+	color: rgba(102,102,102,1);
+	padding: 10px;
+	clear: both;
+}
+
+/* =-=- LOGIN =-=-= */
+
+.login {
+	padding: 20px;
+	background: #fff;
+	border-bottom: 7px #fbb928 solid;
+	width: 161px;
+	height: 163px;
+	margin-bottom: 36px;
+}
+.login ul li {
+	padding: 5px 0;
+}
+.login ul {
+	margin-bottom: 10px;
+}
+.search {
+	width: 201px;
+	border-top: 4px #fbb928  solid;
+	height: 41px;
+	background: #5eafdd;
+}
+#wi:before {
+	content: url(../img/email-small.jpg);
+	padding-right: 5px;
+}
+
+#pow:before {
+	content: url(../img/alert-small.jpg);
+	padding-right: 5px;
+}
+
+#sni:before {
+	content: url(../img/star-small.jpg);
+	padding-right: 5px;
+}
+
+#prof:before {
+	content: url(../img/edit-small.jpg);
+	padding-right: 5px;
+}
+
+
+/* =-=-= REKLAMY =-=- */
+
+#reklamy {
+	padding: 4px 0;
+}
